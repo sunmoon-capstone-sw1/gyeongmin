@@ -1,9 +1,9 @@
-* Install required packages
-pip install Flask
-pip install sqlalchemy
-pip install flask-login
-pip install -U flask-cors
-pip install pyttsx3
+* Install required packages <br />
+pip install Flask <br />
+pip install sqlalchemy <br />
+pip install flask-login <br />
+pip install -U flask-cors <br />
+pip install pyttsx3 <br />
 
 * Change path of model at views.py
 
