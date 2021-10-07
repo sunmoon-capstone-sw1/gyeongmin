@@ -15,8 +15,8 @@ views = Blueprint('views', __name__)
 
 camera = cv2.VideoCapture(0)
 camera.set(cv2.CAP_PROP_BUFFERSIZE,  5)
-
-model = load_model("C:/Users/HP/Desktop/FLASK DEMO/website/saved_model_mobileNet.h5") # C:/Users/HP/Desktop/FLASK DEMO/website/saved_model_mobileNet.h5
+# C:\Users\2019A00298\Desktop\gyeongmin\Web Application\Flask\website\saved_model_mobileNet.h5
+model = load_model("C:/Users/2019A00298/Desktop/gyeongmin/Web Application/Flask/website/saved_model_mobileNet.h5")
 input_size = (224, 224)
 
 def generate_frames():
