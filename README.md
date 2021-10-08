@@ -1,2 +1,2 @@
 # gyeongmin
-Make an API for connecting between Web Application and Trition Inference Server
+Make an API for connecting between Web Application and Triton Inference Server
