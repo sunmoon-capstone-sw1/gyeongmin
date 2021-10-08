@@ -1,4 +1,4 @@
-* ISSUE: <br />
+* Pending issues: <br />
 depends on device TTS service is either korean ver. or english ver. <br />
 image upload service is not implemented yet. <br />
 
