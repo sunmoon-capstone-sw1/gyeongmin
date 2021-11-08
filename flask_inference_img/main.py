@@ -6,7 +6,7 @@ import refactoring_image_client as Triton
 
 app = Flask(__name__)
 
-FLASK_FOLDER = 'C:/Users/2019A00298/Desktop/flask_upload_img/'
+FLASK_FOLDER = 'C:/Users/2019A00298/Desktop/gyeongmin/flask_inference_img/'
 UPLOAD_FOLDER = 'static/uploads/'
 IMG_PATH = ""
 MODEL_NAME = "mobilenet_money_detection"
