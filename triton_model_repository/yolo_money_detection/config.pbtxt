@@ -1,0 +1,23 @@
+name: "yolo_money_detection"
+platform: "tensorflow_savedmodel"
+input [
+  {
+    name: "input_5"
+    data_type: TYPE_FP32
+    format: FORMAT_NHWC
+    dims: [ 416, 416, 3 ]
+    reshape { shape: [ 1, 416, 416, 3 ] }
+  }
+]
+output [
+  {
+    name: "conv2d_36"
+    data_type: TYPE_FP32
+    dims: [-1, 13, 13, 18]
+  },
+  {
+    name: "conv2d_39"
+    data_type: TYPE_FP32
+    dims: [-1, 26, 26, 18]
+  }
+] 
